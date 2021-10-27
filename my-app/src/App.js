@@ -4,19 +4,19 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-      <div class="container">
-        <div class="row">
-          <div class="col-sm">
-          <i class="fas fa-cart-plus"></i>
+    <div className="container">
+        <div className="row">
+          <div className="col-6">
+          Column 1
           </div>
-          <div class="col-sm">
-            Column
-          </div>
-          <div class="col-sm">
-            Column
+          <div className="col-6">
+            <span>
+              <i className="fas fa-home"></i>
+            </span>
           </div>
         </div>
       </div>
+
   );
 }
 
